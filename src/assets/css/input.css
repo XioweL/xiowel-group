@@ -117,5 +117,9 @@
     .visible {
         display: block; /* Show when visible */
     }
-
+    @media (max-width: 640px) {
+        #scrollToTopBtn {
+            display: none;
+        }
+    }
 }
